@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(255, 245, 245);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+}
+
+.welcome-container{
+    text-align: center;
+    background-color: rgb(148, 148, 148);
+    padding-top: 2%;
+    padding-bottom: 4%;
+    border: 2px solid black;
+}
+.welcome-container h1{
+    font-size: 100px;
+}
+.welcome-container p{
+    font-size: 35px;
+}
+.bottom-half{
+    display: flex;
+    
+}
+
+.bottom-container{
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+    padding-left:20px;
+    border: 2px solid black;
+    font-size: xx-large;
+    height: 650px;
+}
+
+.bottom-container p{
+    font-size: 60px;
+}
+.bottom-container input{
+    width: 600px;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+.bottom-container button{
+    height: 150px;
+    width: auto;
+    font-size: 70px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 4px solid black;
+    
+}
+
+.top-room-container{
+    text-align: center;
+    background-color: rgb(148, 148, 148);
+    padding-top: 2%;
+    padding-bottom: 4%;
+
+}
+
+.top-room-container h1{
+    font-size: 100px;
+    
+}
+.top-room-container input{
+    width: 600px;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.top-room-container button{
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 4px solid black;
+    
+}
+
+.rooms-container{
+    background-color: grey;
+    height: 641px;
+}
+
+.room-name{
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-bottom: 0px;
+}
+.room-name button{
+    height: auto;
+    width: auto;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: 4px solid black;
+}
+
+.chat-screen{
+    background-color: grey;
+    height: 100vh;
+}
+.chat-header {
+    height: 100px;
+    background-color: rgb(78, 78, 78);
+    text-align: left;
+    font-size: 50px;
+}
+.chat-header button{
+    height: auto;
+    width: auto;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: 4px solid black;
+    background-color: red;
+    align-self: right;
+}
+.chat-messages{
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 855px;
+}
+
+.chat-text-input{
+    text-align: right;
+    margin-top: 1.95%;
+}
+
+.chat-text-input input{
+    text-align: right;
+    font-size: 60px;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-right: 40px;
+    width: 86%;
+    text-align: left;
+}
+.chat-text-input button{
+    text-align: right;
+    font-size: 60px;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-right: 40px;
+}
